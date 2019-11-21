@@ -35,7 +35,7 @@ class Afiliacion_servicio(TimeStampModel):
     fallas_acumuladas_afiliacion = models.PositiveIntegerField(help_text='Número de fallas acumuladas del servicio afiliado', verbose_name='Fallas acumuladas afiliación', default=0)
 
     def __str__(self):
-        return self.cliente_afiliacion.__str__()
+        return '{} {}'.format(self.cliente_afiliacion.__str__(),self.servicio_afiliacion.__str__())
 
 
     class Meta:

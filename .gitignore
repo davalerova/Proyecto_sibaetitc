@@ -233,3 +233,4 @@ venv/Scripts/sqlformat.exe
 .idea/vcs.xml
 .idea/workspace.xml
 *.xml
+.idea/workspace.xml
