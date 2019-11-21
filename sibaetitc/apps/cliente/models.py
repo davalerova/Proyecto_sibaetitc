@@ -40,6 +40,9 @@ class Tipo_cliente(TimeStampModel):
 class Dependencia(TimeStampModel):
     nombre_dependencia = models.CharField(help_text='Nombre de la dependencia a la que pertenece, ej: Sistemas, Vigilancia', max_length=50, unique=True, verbose_name='Nombre dependencia')
 
+    def __str__(self):
+        return self.nombre_dependencia
+
 class Cliente(TimeStampModel):
     id_rfid_cliente = models.CharField(help_text='Id RFID carné o llavero', max_length=50, unique=True, verbose_name='Id RFID')
     documento_identidad = models.ForeignKey(Documento_identidad, help_text='Documento de identidad del cliente', verbose_name='Documento de identidad', on_delete=False)
@@ -52,3 +55,6 @@ class Cliente(TimeStampModel):
     genero_cliente = models.ForeignKey(Genero, help_text='Gérero del cliente', verbose_name='Género', on_delete=False)
     tipo_cliente = models.ForeignKey(Tipo_cliente, help_text='Tipo de cliente', verbose_name='Tipo', on_delete=False)
     dependencia_cliente = models.ForeignKey(Dependencia, help_text='Dependencia a la que pertenece', verbose_name='Dependencia', on_delete=False)
+
+    def __str__(self):
+        return self.nombres_cliente + ' ' + self.apellidos_cliente

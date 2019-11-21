@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b62c0f3f-e35d-4edd-a45d-4b8ae6cf48a5" name="Default Changelist" comment="" />
+    <list default="true" id="b62c0f3f-e35d-4edd-a45d-4b8ae6cf48a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/apps/Sanciones/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/apps/Sanciones/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/apps/afiliacion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/apps/afiliacion/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/apps/cliente/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/apps/cliente/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/db.sqlite3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +21,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TuQyse4CTSXvsXysFaRgzr1iRn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,5 +51,16 @@
       <updated>1574307758291</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

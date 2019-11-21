@@ -31,12 +31,11 @@ class Afiliacion_servicio(TimeStampModel):
     afiliacion_jueves = models.BooleanField( default=True )
     afiliacion_viernes = models.BooleanField( default=True )
     afiliacion_sabado = models.BooleanField( default=True )
-    fallas_mensuales_afiliacion = models.PositiveIntegerField(help_text='Número de fallas al servicio afiliado del mes actual', verbose_name='Fallas mensuales afiliación')
-    fallas_acumuladas_afiliacion = models.PositiveIntegerField(help_text='Número de fallas acumuladas del servicio afiliado', verbose_name='Fallas acumuladas afiliación')
+    fallas_mensuales_afiliacion = models.PositiveIntegerField(help_text='Número de fallas al servicio afiliado del mes actual', verbose_name='Fallas mensuales afiliación', default=0)
+    fallas_acumuladas_afiliacion = models.PositiveIntegerField(help_text='Número de fallas acumuladas del servicio afiliado', verbose_name='Fallas acumuladas afiliación', default=0)
 
     def __str__(self):
-        self.cliente_afiliacion + self.servicio_afiliacion + self.tipo_afiliacion
-
+        return self.cliente_afiliacion.__str__()
 
 
     class Meta:
