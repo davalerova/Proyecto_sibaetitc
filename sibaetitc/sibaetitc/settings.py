@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.cliente',
     'apps.recarga',
+    'apps.afiliacion',
+    'apps.Servicios',
+    'apps.Sanciones',
 ]
 
 MIDDLEWARE = [
