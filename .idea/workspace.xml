@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b62c0f3f-e35d-4edd-a45d-4b8ae6cf48a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sibaetitc/apps/cliente/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/apps/cliente/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sibaetitc/apps/recarga/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/apps/recarga/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/ConsultasSQL/CosultarServiciosPorNumeroDocumentoIdentidadCliente.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/ConsultasSQL/CosultarServiciosPorNumeroDocumentoIdentidadCliente.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/apps/Sanciones/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/apps/Sanciones/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sibaetitc/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sibaetitc/sibaetitc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sibaetitc/sibaetitc/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

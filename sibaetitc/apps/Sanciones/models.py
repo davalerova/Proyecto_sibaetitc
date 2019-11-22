@@ -14,7 +14,7 @@ class Tipo_sancion(TimeStampModel):
     duracion_sancion = models.IntegerField(help_text='Cantidad de días que dura la sanción', verbose_name='Duración sanción')
 
     def __str__(self):
-        return '{} {}'.format(self.nombre_sancion, self.duracion_sancion)
+        return '{}'.format(self.nombre_sancion)
     class Meta:
         verbose_name = 'Tipo de sanción'
         verbose_name_plural = 'Tipos de sanción'
@@ -22,7 +22,7 @@ class Tipo_sancion(TimeStampModel):
 class Sancion_cliente(TimeStampModel):
     afiliacion_servicio_sancion_cliente = models.ForeignKey(Afiliacion_servicio, help_text='Afiliación servicio a la que se aplica la sanción', verbose_name='Sanción cliente', on_delete=False)
     tipo_sancion = models.ForeignKey(Tipo_sancion, help_text='Tipo de sanción que se va a aplicar', verbose_name='Tipo de sanción', on_delete=False)
-    descripcion_sancion_cliente = models.TextField(help_text='Descripción de la sanción', verbose_name='Descripción de la sanción')
+    descripcion_sancion_cliente = models.TextField(help_text='Descripción de la sanción', verbose_name='Descripción de la sanción', default='5 fallas acumuladas en un mismo mes en el mismo servicio')
 
     def __str__(self):
         return '{} {} {}'.format(self.afiliacion_servicio_sancion_cliente, self.tipo_sancion, self.created)

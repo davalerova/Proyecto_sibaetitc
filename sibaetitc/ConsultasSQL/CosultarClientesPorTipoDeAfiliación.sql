@@ -1,0 +1,5 @@
+SELECT nombres_cliente, apellidos_cliente, id_rfid_cliente
+FROM cliente_cliente, afiliacion_afiliacion_servicio, afiliacion_tipo_afiliacion
+WHERE cliente_cliente.id=afiliacion_afiliacion_servicio.cliente_afiliacion_id
+AND afiliacion_afiliacion_servicio.tipo_afiliacion_id=afiliacion_tipo_afiliacion.id
+AND nombre_tipo_afiliacion='Subsidiado'

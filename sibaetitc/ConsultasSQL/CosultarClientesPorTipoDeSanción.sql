@@ -1,0 +1,7 @@
+SELECT nombres_cliente, apellidos_cliente, id_rfid_cliente
+FROM cliente_cliente, afiliacion_afiliacion_servicio, afiliacion_tipo_afiliacion, Sanciones_sancion_cliente, Sanciones_tipo_sancion
+WHERE cliente_cliente.id=afiliacion_afiliacion_servicio.cliente_afiliacion_id
+AND afiliacion_afiliacion_servicio.tipo_afiliacion_id=afiliacion_tipo_afiliacion.id
+AND afiliacion_afiliacion_servicio.id=Sanciones_sancion_cliente.afiliacion_servicio_sancion_cliente_id
+AND Sanciones_tipo_sancion.id=Sanciones_sancion_cliente.tipo_sancion_id
+AND nombre_sancion='Fallas'
