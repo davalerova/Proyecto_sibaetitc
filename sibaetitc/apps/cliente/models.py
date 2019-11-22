@@ -58,3 +58,4 @@ class Cliente(TimeStampModel):
 
     def __str__(self):
         return self.nombres_cliente + ' ' + self.apellidos_cliente
+
